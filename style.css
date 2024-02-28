@@ -1,0 +1,171 @@
+body{
+  margin: 0;padding: 0;box-sizing: border-box;
+}
+
+#demo {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 624px;
+    max-width: 320px;
+    max-height: 624px;
+  }
+
+.flex{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+.main-wether{
+  position: relative;
+  justify-content: flex-end;
+  margin: 20% 0;
+}
+
+.ow-row {
+  position: relative;
+  overflow: hidden;
+  display: contents;
+}
+
+.ow-ico {
+  line-height: 1.1em;
+}
+
+.ow-widget {
+  background-color: #111111;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 15px;
+  height: calc(100% - 30px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.ow-city-name {
+  letter-spacing: 1px;
+  line-height: 1.111em;
+  font-weight: bold;
+  font-size: 38px;
+}
+
+.ow-ico-current {
+  position: absolute;
+  left: -30px;
+  font-size: 80px;
+  width: 80%;
+}
+
+.ow-temp-current {
+  font-size: 60px;
+}
+
+.ow-current-desc {
+  line-height: 1.5em;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flex-cont{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ow-forecast{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.ow-forecast-item {
+  float: left;
+  width: calc(33% - 1px);
+  text-align: center;
+  border-right: 1px solid white;
+}
+.ow-forecast-item:last-child {
+  border-right: 0;
+}
+.ow-forecast-item .ow-ico-forecast {
+  font-size: 30px;
+  position: relative;
+}
+.ow-forecast-item .ow-forecast-temp span {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.ow-ico-forecast{
+  width: 70px;
+}
+
+
+/*New wether icons*/
+
+.pressure{
+  content: url('./icons/barometer.svg');
+}
+.humidity{
+  content: url('./icons/humidity.svg');
+}
+.wind{
+  content: url('./icons/windsock.svg');
+}
+
+.wi-day-sunny{
+  content: url('./icons/wi-day-sunny.svg');
+}
+.wi-day-sunny-n{
+  content: url('./icons/wi-day-sunny-n.svg');
+}
+.wi-day-cloudy{
+  content: url('./icons/wi-day-cloudy.svg');
+}
+.wi-day-cloudy-n{
+  content: url('./icons/wi-day-cloudy-n.svg');
+}
+.wi-cloud{
+  content: url('./icons/wi-cloud.svg');
+}
+.wi-cloud-n{
+  content: url('./icons/wi-cloud-n.svg');
+}
+.wi-cloudy{
+  content: url('./icons/wi-cloudy.svg');
+}
+.wi-cloudy-n{
+  content: url('./icons/wi-cloudy-n.svg');
+}
+.wi-rain{
+  content: url('./icons/wi-rain.svg');
+}
+.wi-rain-n{
+  content: url('./icons/wi-rain-n.svg');
+}
+.wi-day-rain{
+  content: url('./icons/wi-day-rain.svg');
+}
+.wi-day-rain-n{
+  content: url('./icons/wi-day-rain-n.svg');
+}
+.wi-thunderstorm{
+  content: url('./icons/wi-thunderstorm.svg');
+}
+.wi-thunderstorm-n{
+  content: url('./icons/wi-thunderstorm-n.svg');
+}
+.wi-snow{
+  content: url('./icons/wi-snow.svg');
+}
+.wi-snow-n{
+  content: url('./icons/wi-snow.svg');
+}
+.wi-fog{
+  content: url('./icons/wi-fog.svg');
+}
+.wi-fog-n{
+  content: url('./icons/wi-fog-n.svg');
+}

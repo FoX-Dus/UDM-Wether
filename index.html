@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Open Weather API Widget</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+
+<section id="demo">
+    <div class="ow-widget">
+        <div class="ow-row">
+            <span class="ow-city-name"></span>
+        </div>
+        <div class="ow-row">
+            <div class="main-wether flex">
+                <div class="wi ow-ico ow-ico-current"></div>
+                <div class="ow-temp-current"></div>
+            </div>
+        </div>
+        <div class="ow-row">
+            <div class="ow-current-desc flex">
+                <div class="flex-cont">
+                    <div class="ow-ico-forecast pressure"></div>
+                    <div class="ow-pressure"></div>
+                </div>
+                <div class="flex-cont">
+                    <div class="ow-ico-forecast humidity"></div>
+                    <div class="ow-humidity"></div>
+                </div>
+                <div class="flex-cont">
+                    <div class="ow-ico-forecast wind"></div>
+                    <div class="ow-wind"></div>
+                </div>                
+            </div>
+        </div>
+        <div class="ow-row ow-forecast">
+            <div class="ow-forecast-item">
+                <div class="ow-day"></div>
+                <div class="wi ow-ico ow-ico-forecast"></div>
+                <div class="ow-forecast-temp">
+                    <span class="max"></span>
+                    <span class="min"></span>
+                </div>
+            </div>
+            <div class="ow-forecast-item">
+                <div class="ow-day"></div>
+                <div class="wi ow-ico ow-ico-forecast"></div>
+                <div class="ow-forecast-temp">
+                    <span class="max"></span>
+                    <span class="min"></span>
+                </div>
+            </div>
+            <div class="ow-forecast-item">
+                <div class="ow-day"></div>
+                <div class="wi ow-ico ow-ico-forecast"></div>
+                <div class="ow-forecast-temp">
+                    <span class="max"></span>
+                    <span class="min"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- partial -->
+  <script  src="./script.js"></script>
+</body>
+</html>
